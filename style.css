@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+h1 {
+	font-family: "Satisfy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+	text-align: center;
+	background: linear-gradient(90deg, #cfecd0, #ffc5ca);
+}
+li {
+	list-style-type: none;
+	margin: 2% 30%;
+	text-decoration: none;
+	font-size: 30px;
+}
+a {
+	text-decoration: none;
+	color: rgb(55, 55, 55);
+	font-family: "Quicksand", sans-serif;
+	font-style: normal;
+	padding: 3%;
+}
+a:hover {
+	text-decoration: underline rgb(219, 135, 149);
+}
+a:visited {
+	color: rgb(219, 152, 163);
+}
+body {
+	/* background-color: #f8f8f8; */
+	background-color: #f4ebec;
+}
+main {
+	margin: 20px;
+	background-color: #ffffffcd;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+article {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #eeeeee;
+	font-family: "Quicksand", sans-serif;
+}
